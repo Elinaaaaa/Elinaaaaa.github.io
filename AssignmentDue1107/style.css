@@ -11,7 +11,7 @@ p#array1{
 
 p#length{
 	position: absolute;
-	top: 53%;
+	top: 55%;
 	left: 10%;
 	font-family: Verdana;
 	font-size: 12px
@@ -25,10 +25,10 @@ p#length{
 button#button1{
 	display: inline-block;
 	border-radius: 7px;
-	border-color: #E4DEE7;
-	background-color: #E4DEE7;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
 
-	color: white;
+	color: black;
 	text-align: center;
 	font-size: 10px;
 	letter-spacing: 0.09pc;
@@ -58,6 +58,206 @@ button#button2{
 	cursor: pointer;
 
 	position: absolute;
-	top: 70%;
-	left: 10%;
+	top: 30%;
+	left: 15%;
+}
+
+button#button3{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+button#button4{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+button#button5{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+button#button6{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+button#button7{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+
+button#button8{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
+
+button#button9{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+button#button10{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 55%;
+}
+
+button#button11{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 60%;
+}
+
+button#button12{
+	display: inline-block;
+	border-radius: 7px;
+	border-color: #F1E7E4;
+	background-color: #F1E7E4;
+
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 0.09pc;
+
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 30%;
+	left: 65%;
 }
