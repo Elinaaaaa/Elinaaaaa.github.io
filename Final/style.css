@@ -1,0 +1,53 @@
+body{
+	background: #c4c3cb
+}
+
+#click1{
+	font-family: Futura Std;
+	font-size: 15px;
+	color: #857e95
+
+}
+@font-face{
+	font-family: Futura Std;
+	src:url(FuturaStd-Light.otf);
+}
+
+/*#circle1 {
+    width: 300px;
+    height: 300px;
+    background: #857e95;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+ 	float: left;
+
+
+ }*/
+
+#wrapping-word{
+	font-family: Futura Std;
+	font-size: 10px;
+	color: #857e95;
+	margin:0rem;
+}
+@font-face{
+	font-family: Futura Std;
+	src:url(FuturaStd-Light.otf);
+}
+
+/*#wrapping-word p {
+	line-height: 1.8;
+}*/
+
+#wrapping-word .circle2{
+	width: 430px;
+	height: 430px;
+	background: #857e95;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    float: left;
+	/*margin-right: 0rem;
+	border-radius: 3px;*/
+	-webkit-shape-outside: circle();
+	shape-outside: circle();
+}
