@@ -1,0 +1,247 @@
+{
+	"wire" : [
+
+		{
+			"date" : "2015",
+			"imageurl" : "images/wire6.jpg",
+			"color" : "blue", "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/wire5.jpg",
+			"color" : "blue", "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/wire4.jpg",
+			"color" : "pink", "blue"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/image3.jpg",
+			"color" : "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/wire2.jpg",
+			"color" : "orange", "blue"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/wire1.jpg",
+			"color": "white"
+		}
+
+	],
+
+	"leaves" : [
+
+		{
+			"date" : "2018",
+			"imageurl" : "images/leaves4.jpg",
+			"color" : "brown", "green"
+		},
+		{
+			"date" : "2017",
+			"imageurl" : "images/leaves5.jpg",
+			"color" : "red", "green"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/leaves3.jpg",
+			"color" : "brown", "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/leaves1.JPG",
+			"color" : "red", "brown"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/leaves2.JPG",
+			"color" : "red", "green"
+		}
+
+	],
+
+	"buildings" : [
+
+		{
+			"date" : "2017",
+			"imageurl" : "images/building1.jpg",
+			"color": "red", "white", "yellow"
+		},
+		{
+			"date" : "2017",
+			"imageurl" : "images/building2.jpg",
+			"color": "green", "white", "blue"
+		},
+		{
+			"date" : "2017",
+			"imageurl" : "images/building5.jpg",
+			"color": "brown", "yellow"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/building3.jpg",
+			"color": "green", "blue", "red"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/building4.jpg",
+			"color": "white", "yellow", "grey"
+		}
+	],
+
+	"higher view" : [
+
+		{
+			"date" : "2016",
+			"imageurl" : "images/high3.jpg",
+			"color" : "grey"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/high2.jpg",
+			"color" : "yellow"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/high1.jpg",
+			"color" : "grey"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/high4.jpg",
+			"color" : "grey"
+		}
+	],
+
+	"flowers" : [
+
+		{
+			"date" : "2015",
+			"imageurl" : "images/flower1.jpg",
+			"color" : "pink" 
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/flower2.jpg",
+			"color" : "pink" 
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/flower3.jpg",
+			"color" : "green", "yellow" 
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/flower4.jpg",
+			"color" : "white" 
+		}
+	],
+
+	"foods" : [
+
+		{
+			"date" : "2018",
+			"imageurl" : "images/food1.jpg",
+			"color" : "brown"
+		},
+		{
+			"date" : "2017",
+			"imageurl" : "images/food2.jpg",
+			"color" : "brown"
+		},
+		{
+			"date" : "2017",
+			"imageurl" : "images/food3.jpg",
+			"color" : "brown"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/food4.jpg",
+			"color" : "brown"
+		}
+	],
+
+	"bikes" : [
+
+		{
+			"date" : "2017",
+			"imageurl" : "images/bike1.jpg",
+			"color" : "yellow"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/bike3.jpg",
+			"color" : "brown"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/bike2.jpg",
+			"color" : "grey"
+		}
+	],
+
+	"underground" : [
+
+		{
+			"date" : "2017",
+			"imageurl" : "images/underground1.jpg",
+			"color" : "black", "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/underground2.jpg",
+			"color" : "white"
+		},
+		{
+			"date" : "2015",
+			"imageurl" : "images/underground3.jpg",
+			"color" : "black", "white"
+		}
+	],
+
+	"pigeon" : [
+
+		{
+			"date" : "2017",
+			"imageurl" : "images/animal1.jpg",
+			"color" : "brown", "white"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/animal2.jpg",
+			"color" : "brown", "grey"
+		}
+	],
+
+	"people" : [
+
+		{
+			"date" : "2015",
+			"imageurl" : "images/ppl1.jpg",
+			"color" : "green", "yellow", "black"
+		},
+		{
+			"date" : "2014",
+			"imageurl" : "images/ppl2.jpg",
+			"color" : "green", "black"
+		}
+	],
+
+	"sky" : [
+
+		{
+			"date" : "2015",
+			"imageurl" : "images/sky1.jpg",
+			"color" : "blue", "yellow", "black"
+		},
+		{
+			"date" : "2016",
+			"imageurl" : "images/sky2.jpg",
+			"color" : "blue", "white", "green"
+		}
+	]
+}
