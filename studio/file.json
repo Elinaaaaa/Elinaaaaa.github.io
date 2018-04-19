@@ -3,33 +3,27 @@
 
 		{
 			"date" : "2015",
-			"imageurl" : "images/wire6.jpg",
-			"color" : "blue", "white"
+			"imageurl" : "images/animal1.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/wire5.jpg",
-			"color" : "blue", "white"
+			"imageurl" : "images/wire5.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/wire4.jpg",
-			"color" : "pink", "blue"
+			"imageurl" : "images/wire4.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/image3.jpg",
-			"color" : "white"
+			"imageurl" : "images/image3.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/wire2.jpg",
-			"color" : "orange", "blue"
+			"imageurl" : "images/wire2.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/wire1.jpg",
-			"color": "white"
+			"imageurl" : "images/wire1.jpg"
 		}
 
 	],
@@ -38,28 +32,23 @@
 
 		{
 			"date" : "2018",
-			"imageurl" : "images/leaves4.jpg",
-			"color" : "brown", "green"
+			"imageurl" : "images/leaves4.jpg"
 		},
 		{
 			"date" : "2017",
-			"imageurl" : "images/leaves5.jpg",
-			"color" : "red", "green"
+			"imageurl" : "images/leaves5.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/leaves3.jpg",
-			"color" : "brown", "white"
+			"imageurl" : "images/leaves3.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/leaves1.JPG",
-			"color" : "red", "brown"
+			"imageurl" : "images/leaves1.JPG"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/leaves2.JPG",
-			"color" : "red", "green"
+			"imageurl" : "images/leaves2.JPG"
 		}
 
 	],
@@ -68,28 +57,23 @@
 
 		{
 			"date" : "2017",
-			"imageurl" : "images/building1.jpg",
-			"color": "red", "white", "yellow"
+			"imageurl" : "images/building1.jpg"
 		},
 		{
 			"date" : "2017",
-			"imageurl" : "images/building2.jpg",
-			"color": "green", "white", "blue"
+			"imageurl" : "images/building2.jpg"
 		},
 		{
 			"date" : "2017",
-			"imageurl" : "images/building5.jpg",
-			"color": "brown", "yellow"
+			"imageurl" : "images/building5.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/building3.jpg",
-			"color": "green", "blue", "red"
+			"imageurl" : "images/building3.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/building4.jpg",
-			"color": "white", "yellow", "grey"
+			"imageurl" : "images/building4.jpg"
 		}
 	],
 
@@ -97,23 +81,19 @@
 
 		{
 			"date" : "2016",
-			"imageurl" : "images/high3.jpg",
-			"color" : "grey"
+			"imageurl" : "images/high3.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/high2.jpg",
-			"color" : "yellow"
+			"imageurl" : "images/high2.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/high1.jpg",
-			"color" : "grey"
+			"imageurl" : "images/high1.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/high4.jpg",
-			"color" : "grey"
+			"imageurl" : "images/high4.jpg"
 		}
 	],
 
@@ -121,23 +101,19 @@
 
 		{
 			"date" : "2015",
-			"imageurl" : "images/flower1.jpg",
-			"color" : "pink" 
+			"imageurl" : "images/flower1.jpg" 
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/flower2.jpg",
-			"color" : "pink" 
+			"imageurl" : "images/flower2.jpg" 
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/flower3.jpg",
-			"color" : "green", "yellow" 
+			"imageurl" : "images/flower3.jpg" 
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/flower4.jpg",
-			"color" : "white" 
+			"imageurl" : "images/flower4.jpg"
 		}
 	],
 
@@ -145,23 +121,19 @@
 
 		{
 			"date" : "2018",
-			"imageurl" : "images/food1.jpg",
-			"color" : "brown"
+			"imageurl" : "images/food1.jpg"
 		},
 		{
 			"date" : "2017",
-			"imageurl" : "images/food2.jpg",
-			"color" : "brown"
+			"imageurl" : "images/food2.jpg"
 		},
 		{
 			"date" : "2017",
-			"imageurl" : "images/food3.jpg",
-			"color" : "brown"
+			"imageurl" : "images/food3.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/food4.jpg",
-			"color" : "brown"
+			"imageurl" : "images/food4.jpg"
 		}
 	],
 
@@ -169,18 +141,15 @@
 
 		{
 			"date" : "2017",
-			"imageurl" : "images/bike1.jpg",
-			"color" : "yellow"
+			"imageurl" : "images/bike1.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/bike3.jpg",
-			"color" : "brown"
+			"imageurl" : "images/bike3.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/bike2.jpg",
-			"color" : "grey"
+			"imageurl" : "images/bike2.jpg"
 		}
 	],
 
@@ -188,18 +157,15 @@
 
 		{
 			"date" : "2017",
-			"imageurl" : "images/underground1.jpg",
-			"color" : "black", "white"
+			"imageurl" : "images/underground1.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/underground2.jpg",
-			"color" : "white"
+			"imageurl" : "images/underground2.jpg"
 		},
 		{
 			"date" : "2015",
-			"imageurl" : "images/underground3.jpg",
-			"color" : "black", "white"
+			"imageurl" : "images/underground3.jpg"
 		}
 	],
 
@@ -207,13 +173,11 @@
 
 		{
 			"date" : "2017",
-			"imageurl" : "images/animal1.jpg",
-			"color" : "brown", "white"
+			"imageurl" : "https://Elinaaaaa.github.io/studio/images/animal1.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/animal2.jpg",
-			"color" : "brown", "grey"
+			"imageurl" : "https://Elinaaaaa.github.io/studio/images/animal2.JPG"
 		}
 	],
 
@@ -221,13 +185,11 @@
 
 		{
 			"date" : "2015",
-			"imageurl" : "images/ppl1.jpg",
-			"color" : "green", "yellow", "black"
+			"imageurl" : "images/ppl1.jpg"
 		},
 		{
 			"date" : "2014",
-			"imageurl" : "images/ppl2.jpg",
-			"color" : "green", "black"
+			"imageurl" : "images/ppl2.jpg"
 		}
 	],
 
@@ -235,13 +197,11 @@
 
 		{
 			"date" : "2015",
-			"imageurl" : "images/sky1.jpg",
-			"color" : "blue", "yellow", "black"
+			"imageurl" : "images/sky1.jpg"
 		},
 		{
 			"date" : "2016",
-			"imageurl" : "images/sky2.jpg",
-			"color" : "blue", "white", "green"
+			"imageurl" : "images/sky2.jpg"
 		}
 	]
 }
