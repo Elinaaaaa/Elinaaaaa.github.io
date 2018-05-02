@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html{
+	background-color: #7D55C7;
+}
+
+.animal{
+	position: absolute;
+	left: 30vw;
+	top: 10vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.animal:hover{
+	animation: draw 2s infinite;
+}
+.bike{
+	position: absolute;
+	left: 25vw;
+	top: 20vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.bike:hover{
+	animation: draw 2s infinite;
+}
+.building{
+	position: absolute;
+	left: 25vw;
+	top: 35vh;
+	width: 15vw;
+	height: auto;
+	cursor: pointer;
+}
+.building:hover{
+	animation: draw 2s infinite;
+}
+.flower{
+	position: absolute;
+	left: 30vw;
+	top: 60vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.flower:hover{
+	animation: draw 2s infinite;
+}
+.food{
+	position: absolute;
+	left: 40vw;
+	top: 70vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.food:hover{
+	animation: draw 2s infinite;
+}
+.high{
+	position: absolute;
+	left: 55vw;
+	top: 60vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.high:hover{
+	animation: draw 2s infinite;
+}
+.leaf{
+	position: absolute;
+	left: 65vw;
+	top: 50vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.leaf:hover{
+	animation: draw 2s infinite;
+}
+.ppl{
+	position: absolute;
+	left: 65vw;
+	top: 30vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.ppl:hover{
+	animation: draw 2s infinite;
+}
+.sky{
+	position: absolute;
+	left: 65vw;
+	top: 10vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.sky:hover{
+	animation: draw 2s infinite;
+}
+.under{
+	position: absolute;
+	left: 50vw;
+	top: 5vh;
+	width: 10vw;
+	height: auto;
+	cursor: pointer;
+}
+.under:hover{
+	animation: draw 2s infinite;
+}
+.wire{
+	position: absolute;
+	left: 35vw;
+	top: 5vh;
+	width: 20vw;
+	height: auto;
+	cursor: pointer;
+}
+.wire:hover{
+	animation: draw 2s infinite;
+}
+@keyframes draw {
+  0% {
+    transform: translateY(0px);
+    filter: drop-shadow(0px 0px 0px rgba(78,220,202,0.7));
+  }
+  50% {
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 16px 6px rgba(78,220,202,0.5));
+  }
+  100% {
+    transform: translateY(0px);
+    filter: drop-shadow(0px 0px 0px rgba(78,220,202,0.7));
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+<div>
+	<img src="animal.png" class="animal" onclick="animal()">
+</div>
+<div>
+	<img src="bike.png" class="bike" onclick="bike()">
+</div>
+<div>
+	<img src="building.png" class="building" onclick="building()">
+</div>
+<div>
+	<img src="flower.png" class="flower" onclick="flower()">
+</div>
+<div>
+	<img src="food.png" class="food" onclick="food()">
+</div>
+<div>
+	<img src="high.png" class="high" onclick="high()">
+</div>
+<div>
+	<img src="leaf.png" class="leaf" onclick="leaf()">
+</div>
+<div>
+	<img src="ppl.png" class="ppl" onclick="ppl()">
+</div>
+<div>
+	<img src="sky.png" class="sky" onclick="sky()">
+</div>
+<div>
+	<img src="under.png" class="under" onclick="under()">
+</div>
+<div>
+	<img src="wire.png" class="wire" onclick="wire()">
+</div>
+</body>
+<script>
+function animal(){
+	location.replace("animal.html")
+}
+function bike(){
+	location.replace("bike.html")
+}
+function building(){
+	location.replace("building.html")
+}
+function flower(){
+	location.replace("flower.html")
+}
+function food(){
+	location.replace("food.html")
+}
+function high(){
+	location.replace("high.html")
+}
+function leaf(){
+	location.replace("leaf.html")
+}
+function ppl(){
+	location.replace("ppl.html")
+}
+function sky(){
+	location.replace("sky.html")
+}
+function under(){
+	location.replace("under.html")
+}
+function wire(){
+	location.replace("wire.html")
+}
+</script>
+</html>

@@ -15,7 +15,11 @@
 		},
 		{
 			"date" : "2015",
+<<<<<<< HEAD
 			"imageurl" : "https://Elinaaaaa.github.io/studio/images/wire2.jpg"
+=======
+			"imageurl" : "https://Elinaaaaa.github.io/studio/images/wire3.jpg"
+>>>>>>> 01e7f779237c35412d6db8d051924665ebcde777
 		},
 		{
 			"date" : "2015",
@@ -77,7 +81,6 @@
 		}
 	],
 
-	"higher view" : [
 
 		{
 			"date" : "2016",
