@@ -339,16 +339,16 @@ and ( max-width: 600px ) {
 	.containeryellow{
 		position: absolute;
 		left: 5vw;
-		top: 80vh;
+		top: 70vh;
 	}
 	.containerwhite{
 		position: absolute;
 		left: 37vw;
-		top: 80vh;
+		top: 70vh;
 	}
 	.containergreen{
 		position: absolute;
 		left: 70vw;
-		top: 80vh;
+		top: 70vh;
 	}
 }
