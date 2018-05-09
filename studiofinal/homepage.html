@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+		<img src="mapgrey.svg" id="mapgrey" onclick="greyoff()" align="right">
+		<img src="mapblue.svg" id="mapblue" onclick="blueoff()" align="right">
+		<img src="mappink.svg" id="mappink" onclick="pinkoff()" align="right">
+		<img src="mapyellow.svg" id="mapyellow" onclick="yellowoff()" align="right">
+		<img src="mapwhite.svg" id="mapwhite" onclick="whiteoff()" align="right">
+		<img src="mapgreen.svg" id="mapgreen" onclick="greenoff()" align="right">
+
+
+	<img id="map" src="mapx.svg" align="right">
+
+
+	<div class="containerblack">
+		<img id="buttonblack" src="buttonblack.svg" onclick="greyon()">
+		<div class="overlayblack"></div>
+	</div>
+	<div class="containerblue">
+		<img class="buttonblue" src="buttonblue.svg" onclick="blueon()">
+		<div class="overlayblue"></div>
+	</div>
+	<div class="containerpink">
+		<img class="buttonpink" src="buttonpink.svg" onclick="pinkon()">
+		<div class="overlaypink"></div>
+	</div>
+	<div class="containeryellow">
+		<img class="buttonyellow" src="buttonyellow.svg" onclick="yellowon()">
+		<div class="overlayyellow"></div>
+	</div>
+	<div class="containerwhite">
+		<img class="buttonwhite" src="buttonwhite.svg" onclick="whiteon()">
+		<div class="overlaywhite"></div>
+	</div>
+	<div class="containergreen">
+		<img class="buttongreen" src="buttongreen.svg" onclick="greenon()">
+		<div class="overlaygreen">
+		</div>
+		<!-- <div class="greencircle">
+		</div> -->
+	</div>
+
+
+<script>
+	// document.getElementById("map").style.position = 'absoluete';
+	// document.getElementById("map").style.width = '100%';
+
+	function blueon(){
+		document.getElementById("mapblue").style.display = "block";
+	}
+	function blueoff(){
+		document.getElementById("mapblue").style.display = "none";
+	}
+
+	function greyon(){
+		document.getElementById("mapgrey").style.display = "block";
+	}
+	function greyoff(){
+		document.getElementById("mapgrey").style.display = "none";
+	}
+
+	function pinkon(){
+		document.getElementById("mappink").style.display = "block";
+	}
+	function pinkoff(){
+		document.getElementById("mappink").style.display = "none";
+	}
+
+	function yellowon(){
+		document.getElementById("mapyellow").style.display = "block";
+	}
+	function yellowoff(){
+		document.getElementById("mapyellow").style.display = "none";
+	}
+
+	function whiteon(){
+		document.getElementById("mapwhite").style.display = "block";
+	}
+	function whiteoff(){
+		document.getElementById("mapwhite").style.display = "none";
+	}
+
+	function greenon(){
+		document.getElementById("mapgreen").style.display = "block";
+	}
+	function greenoff(){
+		document.getElementById("mapgreen").style.display = "none";
+	}
+</script>
+
+
+</body>
+</html>
