@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body, html{
+		background-color: #7D55C7;
+	}
+	#jpg{
+		position: relative;
+		top: 10px;
+		left: 22%;
+		width:700px;
+		height:auto;
+
+	}
+	#png{
+		width: 10vw;
+		z-index: 1;
+		position: fixed;
+		left: 10%;
+		cursor: pointer;
+	}
+	.pigeon{
+		width: 23vw;
+		height: auto;
+		position: fixed;
+		left: 5%;
+		top: 18%;
+		z-index: 1;
+	}
+	#png:hover{
+		animation: draw 2s infinite;
+	}
+	@keyframes draw {
+  0% {
+    transform: translateY(0px);
+    filter: drop-shadow(0px 0px 0px rgba(78,220,202,0.7));
+  }
+  50% {
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 16px 6px rgba(78,220,202,0.5));
+  }
+  100% {
+    transform: translateY(0px);
+    filter: drop-shadow(0px 0px 0px rgba(78,220,202,0.7));
+  }
+}
+
+
+</style>
+
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div>
+	<img src="animal.png" id="png" onclick="animal()">
+</div>
+<div>
+	<img src="pigeon.png" class="pigeon">
+</div>
+<script type="text/javascript">
+
+	function animal(){
+	location.replace("homepage1.html")
+}
+
+	var url = "https://raw.githubusercontent.com/Elinaaaaa/Elinaaaaa.github.io/master/studio/file.json";
+
+	$.getJSON(url, function(data){
+
+		console.log(data.pigeon)
+
+		// for (var i = 0; i < pigeon.length; i = i + 1) {
+
+		// 	var date = pigeon[i].date;
+
+			for(var j = 0; j < data.pigeon.length; j = j + 1){
+
+				 var url = data.pigeon[j].imageurl;
+				 var image = "<img src="+ url + ">";
+				 var p = document.createElement("p");
+				 p.innerHTML = '<img id="jpg"src="' + url + '">';
+				 console.log();
+				 document.body.appendChild(p);
+
+			}
+
+			// append both of these constructed strings to the dom:
+	})
+	
+
+
+
+	
+
+
+	// for (var i = 0; i < json.leaves.length; i++) {
+	// 	// append both of these constructed strings to the dom:
+		
+	// 	var title = "<h1>"  + pigeon[i].date + "</h1>";
+	// 	var image = "<img src='" + pigeon[i].imageurl + "' >";
+		
+	// }	
+
+</script>
+
+</body>
+</html>
