@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+		.left{
+			position: absolute;
+			width: 50vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 5vw;
+			top: 5vh;
+		}
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 50vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+
+		.number{
+			height: 60vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 20vw;
+			top: 20vh;
+		}
+		.numberimg{
+			height: 60vh;
+			width: auto;
+		}
+
+		.home{
+			height: 10vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 15vw;
+			top: 55vh;
+		}
+		.homeimg{
+			height: 10vh;
+			width: auto;
+			cursor: pointer;
+		}
+		.st{
+			height: 8vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 33vw;
+			top: 19vh;
+		}
+		.stimg{
+			height: 8vh;
+			width: auto;
+		}
+		.right{
+			position: absolute;
+			width: 55vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			right: 5vw;
+			top: 5vh;
+			z-index: -1;
+		}
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 55vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+		.p{
+			width: 35vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			left: 37vw;
+			top: 25vh;
+		}
+		.paragraph{
+			font-size: 1vw;
+			color: #b5cacf;
+			line-height: 1.5vw;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+
+	</style>
+	<script>
+		function homepage(){
+			location.replace("homepage.html")
+		}
+	</script>
+</head>
+<body>
+	<div class="left">
+		<img src="nightcircle.png" class="leftimg">
+	</div>
+	<div class="number">
+		<img src="1.png" class="numberimg">
+	</div>
+	<div class="home wrapper icon-circle">
+		<img src="bluehome.png" class="homeimg fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="st">
+		<img src="st.png" class="stimg">
+	</div>
+	<div class="right">
+		<img src="b.png" class="rightimg">
+	</div>
+	<div class="p">
+		<p class="paragraph">“Last night I was gliding through the cloudless Indian sky. My face was mirrored in the waters of the Ganges, and my beams strove to pierce through the thick intertwining boughs of the bananas, arching beneath me like the tortoise’s shell. Forth from the thicket stripped a Hindoo maid, light as a gazelle, beautiful as Eve. Airy and ethereal as a vision, and yet sharply defined amid the surrounding shadows, stood this daughter of Hindostan: I could read on her delicate brow the thought that had brought her hither. The thorny creeping plants tore her sandals, but for all that she came rapidly forward. The deer that had come down to the river to quench their thirst, sprang by with a startled bound, for in her hand the maiden bore a lighted lamp. I could see before the dancing flame. She came down to the stream, and set the lamp upon the water, and let it float away. The flame flickered to and fro, and seemed ready to expire; but still the lamp burned on, and the girl’s black sparking eyes, half veiled behind their long silken lashed, followed it with a gaze of earnest intensity. She knew that if the lamp continued to burn so long as she could keep it in sight, her betrothed was still alive; but if the lamp was suddenly extinguished, he was dead. And the lamp burned bravely on, and she fell on her knees, and prayed. Near her in the grass lay a speckled snake, but she heeded it also—she thought only of Bramah and of her betrothed. ‘He lives!’ she shouted joyfully, ‘he live’ And from the mountains the echo came back upon her, ‘he lives!’”</p>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 25vw;
+			height: auto;
+			left: -0.5vw;
+			vertical-align: middle;
+			margin-top: 10vh;
+		}
+		.left{
+			position: absolute;
+			width: 30vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 0vw;
+		}
+
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 35vw;
+			height: auto;
+			margin-top: 7vh;
+		}
+		.right{
+			position: relative;
+			width: 35vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			float: right;
+			padding: 0;
+			right: -1vw;
+		}
+
+		.middleimg{
+			position: relative;
+			width: 60vw;
+			height: auto;
+			margin: 0 auto;
+			margin-top: 3vh;
+		}
+		.middle{
+			display: block;
+			position: absolute;
+			left: 35vw;
+		}
+
+		.homeimg{
+			height: 15vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.h{
+			display: block;
+			position: absolute;
+			left: 19vw;
+			top: 31vw;
+		}
+		.rimg{
+			height: 17vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.r1{
+			display: block;
+			position: absolute;
+			left: 8.5vw;
+			top: 6vw;
+		}
+		.r2{
+			display: block;
+			position: absolute;
+			left: 17vw;
+			top: 17vw;
+		}
+		.blue{
+			height: 8vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.one{
+			display: block;
+			position: absolute;
+			left: 15.1vw;
+			top: 28vw;
+		}
+		.two{
+			display: block;
+			position: absolute;
+			left: 12.5vw;
+			top: 38vw;
+		}
+		.three{
+			display: block;
+			position: absolute;
+			left: 5vw;
+			top: 45vw;
+		}
+
+		.p{
+			width: 30vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			left: 53vw;
+			top: 22vh;
+		}
+		.paragraph{
+			font-size: 1vw;
+			color: #f9f091;
+			line-height: 1.5vw;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+	</style>
+	<script>
+		function homepage(){
+			location.replace("homepage.html")
+		}
+		function resident1(){
+			location.replace("resident1.html")
+		}
+		function resident2(){
+			location.replace("resident2.html")
+		}
+		function firstnight(){
+			location.replace("firstnight.html")
+		}
+		function secondnight(){
+			location.replace("secondnight.html")
+		}
+		function thirdnight(){
+			location.replace("thirdnight.html")
+		}
+	</script>
+</head>
+<body>
+	<div class="left">
+		<img src="r3left.png" class="leftimg">
+	</div>
+
+	<div class="h wrapper fa">
+		<img src="homepage.png" class="homeimg fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="r1 wrapper fa">
+		<img src="r1b.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident1()">
+	</div>
+	<div class="r2 wrapper fa">
+		<img src="r2b.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident2()">
+	</div>
+	<div class="one wrapper fa">
+		<img src="night1.png" class="blue fa fa-bitcon icon-rotate" onclick="firstnight()">
+	</div>
+	<div class="two wrapper fa">
+		<img src="night2.png" class="blue fa fa-bitcon icon-rotate" onclick="secondnight()">
+	</div>
+	<div class="three wrapper fa">
+		<img src="night3.png" class="blue fa fa-bitcon icon-rotate" onclick="thirdnight()">
+	</div>
+
+	<div class="right">
+		<img src="r3right.png" class="rightimg">
+	</div>
+
+	<div class="middle">
+		<img src="r3middle.png" class="middleimg">
+	</div>
+
+	<div class="p">
+		<p class="paragraph">
+		<div class="paragraph">［别名］马木通</div>
+		<div class="paragraph">［植物］马兜铃科（Aristolochiaceae）植物木通马兜铃Hocqnartia manshrjensis Nakai (Aristolochia manshuriensis Komarov)
+	  缠绕性大藤本；茎粗大，外皮灰色，木栓化，嫩枝有白色短柔毛。叶柄长6-11厘米，叶大，圆心脏形，长10-28厘米，宽10-27厘米；全缘，嫩叶密生白色短柔毛，长成后表面绿色，近无毛或仅在叶脉上疏生长柔毛，背面蓝白色，密生短毛。花单生于叶腋（稀双生），花被筒淡绿黄色，弯曲呈马蹄形，先端三浅裂，雄蕊6枚，与花柱愈合成合蕊柱，子房下位，6室。蒴果圆柱形，长9-11厘米，宽3-4厘米，成熟时在顶端裂成6瓣。花期5月。生于山地针阔叶混交林中的外缘处较多。常见。</div> 
+		<div class="paragraph">［分布］长白山区。</div>
+		<div class="paragraph">［采制］由十月末至第二年四、五月间都可以采收，但以九、十月间为合适。采收后，括去外皮，然后晒干，或用火烤干；火烤者，茎条较晒干者为直，再切成长短相仿的条即成.</div>
+		<div class="paragraph">［生药］木通Caulis Hocqnartiae 为刮除外皮的木质茎。呈圆柱形而略弯曲。长30厘米以上，直径2-5厘米。表面黄棕色，略光滑，有不甚显著的纵皱，偶或留有小块灰褐色的栓皮。质硬，不易折断，断面不整齐。韧皮部浅灰黄色，甚狭，木部淡黄色，放射状裂开成薄片，上有细孔状的导管。臭弱，味稍苦。</div>
+		<div class="paragraph">［效用］为消炎性利尿药，有阵痛排脓等作用。</div>
+		<div class="paragraph">［附注］除东北所产马兜铃科的木通意外，尚有用毛茛科铁线莲属Clematis sp.的茎作木通用的。大体说来，东北所产的木通适销长江以北，其他各类木通在长江以南适销。</div>
+	</p>
+	</div>
+
+</body>
+</html>

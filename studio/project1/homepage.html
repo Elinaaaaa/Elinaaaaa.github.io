@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		html,body{
+			background-color: #7B798E;
+		}
+		.layout1{
+			position: relative;
+			width: 100%;
+			height: 70vh;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		.layout1 .image1{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			height: 65vh;
+			width: auto;
+			-webkit-transform: translate(-50%,-50%);
+     		-ms-transform: translate(-50%,-50%);
+          	transform: translate(-50%,-50%);
+		}
+
+		.allnight{
+			width: 100%;
+			height: auto;
+			margin-top: 2vh;
+		}
+		.nights{
+			margin: 0 auto;
+			position: relative;
+			width: auto;
+			height: 10vh;
+			cursor: pointer;
+		}
+		.firstnight{
+			width: 33%;
+			display: inline-block;
+			
+		}
+		.secondnight{
+			width:33%;
+			display: inline-block;
+		}
+		.thirdnight{
+			width: 33%;
+			display: inline-block;
+		}
+
+		.bottom{
+			width: 100%;
+			height: auto;
+			margin-bottom: 2vh;
+		}
+		.other{
+			margin: 0 auto;
+			position: relative;
+			width: auto;
+			height: 15vh;
+			cursor: pointer;
+		}
+		.residents{
+			width: 33%;
+			display: inline-block;
+		}
+		
+		.moon{
+			width: 33%;
+			display: inline-block;
+			float: right;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+
+		
+	</style>
+	<script>
+		function firstnight(){
+			location.replace("firstnight.html")
+		}
+		function secondnight(){
+			location.replace("secondnight.html")
+		}
+		function thirdnight(){
+			location.replace("thirdnight.html")
+		}
+		function residents(){
+			location.replace("residents.html")
+		}
+		function moon(){
+			location.replace("moon.html")
+		}
+	</script>
+</head>
+<body>
+		<div class="allnight">
+			<div align="center" class="firstnight wrapper icon-circle">
+				<img src="night1.png" class="nights fa fa-bitcon icon-rotate" onclick="firstnight()">
+			</div>
+			<div align="center" class="secondnight wrapper icon-circle">
+				<img src="night2.png" class="nights fa fa-bitcon icon-rotate" onclick="secondnight()">
+			</div>
+			<div align="center" class="thirdnight wrapper icon-circle">
+				<img src="night3.png" class="nights fa fa-bitcon icon-rotate" onclick="thirdnight()">
+			</div>
+		</div>
+
+		<div class="layout1">
+			<img src="layout1.png" class="image1">
+		</div>
+
+		<div class="bottom wrapper icon-circle">
+			<div align="center" class="residents">
+				<img src="residents.png" class="other fa fa-bitcon icon-rotate" onclick="residents()">
+			</div>
+			<div align="center" class="moon wrapper icon-circle">
+				<img src="moonsaw.png" class="other fa fa-bitcon icon-rotate" onclick="moon()">
+			</div>
+		</div>
+
+
+</body>
+</html>

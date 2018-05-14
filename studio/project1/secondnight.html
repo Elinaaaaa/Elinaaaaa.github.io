@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+		.left{
+			position: absolute;
+			width: 50vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 5vw;
+			top: 5vh;
+		}
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 50vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+
+		.number{
+			height: 57vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 15vw;
+			top: 20vh;
+		}
+		.numberimg{
+			height: 57vh;
+			width: auto;
+		}
+
+		.home{
+			height: 10vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 13vw;
+			top: 55vh;
+		}
+		.homeimg{
+			height: 10vh;
+			width: auto;
+			cursor: pointer;
+		}
+		.nd{
+			height: 8vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 33vw;
+			top: 19vh;
+		}
+		.stimg{
+			height: 8vh;
+			width: auto;
+		}
+		.right{
+			position: absolute;
+			width: 55vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			right: 5vw;
+			top: 5vh;
+			z-index: -1;
+		}
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 55vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+		.p{
+			width: 35vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			left: 37vw;
+			top: 30vh;
+		}
+		.paragraph{
+			font-size: 1vw;
+			color: #b5cacf;
+			line-height: 1.5vw;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+	</style>
+	<script>
+		function homepage(){
+			location.replace("homepage.html")
+		}
+	</script>
+</head>
+<body>
+	<div class="left">
+		<img src="nightcircle.png" class="leftimg">
+	</div>
+	<div class="number">
+		<img src="2.png" class="numberimg">
+	</div>
+	<div class="home wrapper icon-circle">
+		<img src="bluehome.png" class="homeimg fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="nd">
+		<img src="nd.png" class="stimg">
+	</div>
+	<div class="right">
+		<img src="c.png" class="rightimg">
+	</div>
+	<div class="p">
+		<p class="paragraph"><div class="paragraph">“Yesterday, I looked down upon a small courtyard surrounded on all sides by houses. I n the courtyard sat a clucking hen with eleven chickens; and a pretty girl was running and jumping around them. The hen was frightened, and screamed, and spread out her wings over the little brood. Then the girl’s father came out and scolded her; and I glided away and thought no more of the matter. </div>
+		<div class="paragraph">But this evening, only a few minutes ago, I looked down into the same courtyard. Everything was quite. But presently the little girl came forth again, crept quietly to the hen-house, pushed back the bolt, and slipped into the apartment of the hen and chickens. They cried out loudly, and came fluttering down from their perches, and ran about in dismay, and the little girl ran after them. I saw it quite plainly, for I looked through a hole in the hen-house wall. I was angry with the willful child, and felt glad when her father came out and scolded her more violently than yesterday, holding her roughly by the arm: she held down her head, and her blue eyes were full of large years. ‘What are you about here?’ he asked. She wept and said, ‘I wanted to kiss the hen and beg her pardon for frightening her yesterday; but I was afraid to tell you.’</div>
+		<div class="paragraph">“And the father kissed the innocent child’s forehead, and I kissed her on the mouth and eyes.”</div></p>
+	</div>
+</body>
+</html>

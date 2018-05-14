@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<head>
+<style>
+html,body{
+	background-color: #FEDB00;
+}
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  color: white;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.commentbox-app {
+  font-family: 'Poiret One', cursive;
+  color: black;
+  font-size: 45px;
+}
+
+.container {
+   max-width: 50vw;
+   margin: auto 0;
+   padding: 0;
+   position: absolute;
+   left: 50%;
+   top: 50vh;
+   -webkit-transform: translate(-50%,-50%);
+}
+  
+.heading {
+   color: black;
+   line-height: 1;
+   text-align: center;
+}
+  
+.comment-input,
+.comment-btn {
+   font-family: 'Poiret One', cursive;
+   float: left;
+   display: inline-block;
+   height: 70px;
+}
+.comment-input {
+   font-family: 'Poiret One', cursive; 
+   width: 30vw;
+   appearance: none;
+   border: 0;
+   background-color: white;
+   padding: 10px 10px 10px 32px;
+   transition: .65s ease;
+}
+.comment-input:focus {
+/*   border-color: #B2C9EF;*/
+   background-color: #FEDB00;
+}
+.comment-btn {
+   appearance: none;
+   background-color: #FEDB00;
+   border: 1;
+   border-color: black;
+   font-size: 30px;
+   text-decoration: none;
+   color: black;
+   padding: 10px 32px;
+   line-height: 1.5;
+   transition: 0.65s ease;
+   cursor: pointer;
+}
+.comment-btn:focus,
+.comment-btn:active {
+    border: 0;      
+}
+.comment-btn:hover {
+    background-color: #B2C9EF;
+    color: white;
+    border
+    }
+/*.comment-btn:hover + .comment-input {
+    background-color: #fff;
+    border-color: orange;
+    }*/
+.remove-all-btn {
+    font-family: 'Poiret One', cursive;
+    appearance: none;
+    /*border: 1px solid #ccc;*/
+    border: 1;
+    border-color: black;
+    color: black;
+    background-color: #FEDB00;
+    padding: 20px 12px;
+    font-size: 40%;
+    line-height: 1.5;
+    transition: 0.65s ease;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.remove-all-btn:hover {
+    background-color: #B2C9EF;
+    color: white;
+}
+.comment-stream {
+    list-style: none;
+    padding: 0;
+    margin-top: 65px;
+}
+.comment-remove {
+    display: none;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 0 12px;
+    opacity: .75;
+    cursor: pointer;}
+.comment-remove:hover {
+    opacity: 1;
+}
+li {
+    font-size: 28px;
+    padding-left: 10px;
+    border-left: 3px solid #4a4a4a;
+    margin-bottom: 25px;
+}
+li:hover .comment-remove {
+    display: inline-block;
+}
+.button{
+  position: absolute;
+  float:right;
+  right: 5vw;
+  top: 80vh;
+}
+.home{
+  position: absolute;
+  float:left;
+  left: 5vw;
+  top: 80vh;
+}
+.yes {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    line-height: 90px;
+    cursor: pointer;
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: black;
+}
+.yes:hover {
+    background: #B2C9EF;
+    color: white;
+}
+.yes{
+    box-shadow: 0 0 0 1.5px black;
+    position: relative;
+    display: inline-block;
+}
+</style>
+</head>
+
+<body>
+<div class="list" id="no_go"></div>
+<div class="commentbox-app">
+  <div class="container">
+    <h1 class="heading">comments</h1>
+    <div class="clearfix">
+      <form id="comment-form">
+        <input type="text" id="comment-input" class="comment-input" placeholder="Thoughts">
+        <input type="submit" value="Post" class="comment-btn">
+      </form>
+    </div>
+    
+    <ul id="comment-stream" class="comment-stream">
+    </ul>
+    <button class="remove-all-btn" id="remove-all" type="button">Remove all</button>
+  </div>
+</div>
+<div class="button">
+  <a class="yes" href="yes.html">TRY</a>
+</div>
+<div class="home">
+  <a class="yes" href="homepage.html">HOME</a>
+</div>
+</body>
+
+<script>
+function hideWarning() {
+  document.getElementById('no_go').style.display = 'none';
+}
+
+function supportsLocalStorage () {
+  return typeof localStorage !== 'undefined';
+}
+
+function getComments() {
+  return JSON.parse(localStorage.getItem('comments')) || [];
+}
+
+function saveComment (comments, commentStr, action) {
+  if (!commentStr && comments.indexOf(commentStr) < 0) {
+    action(err);
+  }
+  
+  action(undefined, commentStr);
+  
+}
+
+function appendToStream(stream, str, index) {
+  var li = document.createElement('LI');
+  li.setAttribute('data-index', index);
+  li.innerHTML = str;
+  stream.appendChild(li);
+}
+
+function loadComments(stream) {
+  var comments = getComments();
+  if (comments) {
+    for (var i = 0; i < comments.length; i++) {
+      appendToStream(stream, comments[i], i);
+    }    
+  }
+}
+
+function clearComments(stream) {
+  localStorage.removeItem('comments');
+  stream.innerHTML = '';
+}
+
+if (supportsLocalStorage()) {
+  initApp();
+} else {
+  showWarning();
+}
+
+function initApp() {
+  hideWarning();
+  
+  var commentForm = document.getElementById('comment-form'),
+      commentList = document.getElementById('comment-stream'),
+      commentInput = document.getElementById('comment-input'),
+      removeAll = document.getElementById('remove-all');
+ 
+  loadComments(commentList);
+  
+  removeAll.addEventListener('click', function() {
+    clearComments(commentList);
+  }, true);
+  
+  commentForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    var commStr = commentInput.value,
+        comments = getComments();
+    
+    saveComment(comments, commStr, function(err, value) {
+      
+      if (err) {
+        return;
+      }
+      
+      comments.push(value);
+      localStorage.setItem('comments', JSON.stringify(comments));  
+      appendToStream(commentList, commStr);
+      commentInput.value = '';      
+    });
+    
+  }, true);
+}
+</script>
+</html>

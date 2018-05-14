@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 25vw;
+			height: auto;
+			left: -0.5vw;
+			vertical-align: middle;
+			margin-top: 10vh;
+		}
+		.left{
+			position: absolute;
+			width: 30vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 0vw;
+		}
+
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 35vw;
+			height: auto;
+			margin-top: 7vh;
+		}
+		.right{
+			position: relative;
+			width: 35vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			float: right;
+			padding: 0;
+			right: -1vw;
+		}
+
+		.middleimg{
+			position: relative;
+			width: 60vw;
+			height: auto;
+			margin: 0 auto;
+			margin-top: 3vh;
+		}
+		.middle{
+			display: block;
+			position: absolute;
+			left: 35vw;
+		}
+
+		.homeimg{
+			height: 15vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.h{
+			display: block;
+			position: absolute;
+			left: 17vw;
+			top: 17vw;
+		}
+		.rimg{
+			height: 17vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.r1{
+			display: block;
+			position: absolute;
+			left: 8.5vw;
+			top: 6vw;
+		}
+		.r3{
+			display: block;
+			position: absolute;
+			left: 19vw;
+			top: 31vw;
+		}
+		.blue{
+			height: 8vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.one{
+			display: block;
+			position: absolute;
+			left: 15.1vw;
+			top: 28vw;
+		}
+		.two{
+			display: block;
+			position: absolute;
+			left: 12.5vw;
+			top: 38vw;
+		}
+		.three{
+			display: block;
+			position: absolute;
+			left: 5vw;
+			top: 45vw;
+		}
+
+		.p{
+			width: 30vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			left: 53vw;
+			top: 30vh;
+		}
+		.paragraph{
+			font-size: 1vw;
+			color: #f9f091;
+			line-height: 1.5vw;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+	</style>
+	<script>
+		function homepage(){
+			location.replace("homepage.html")
+		}
+		function resident1(){
+			location.replace("resident1.html")
+		}
+		function resident3(){
+			location.replace("resident3.html")
+		}
+		function firstnight(){
+			location.replace("firstnight.html")
+		}
+		function secondnight(){
+			location.replace("secondnight.html")
+		}
+		function thirdnight(){
+			location.replace("thirdnight.html")
+		}
+	</script>
+</head>
+<body>
+	<div class="left wrapper icon-circle">
+		<img src="r2left.png" class="leftimg">
+	</div>
+
+	<div class="h wrapper icon-circle">
+		<img src="homepage.png" class="homeimg fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="r1 wrapper icon-circle">
+		<img src="r1b.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident1()">
+	</div>
+	<div class="r3 wrapper icon-circle">
+		<img src="r3b.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident3()">
+	</div>
+	<div class="one wrapper icon-circle">
+		<img src="night1.png" class="blue fa fa-bitcon icon-rotate" onclick="firstnight()">
+	</div>
+	<div class="two wrapper icon-circle">
+		<img src="night2.png" class="blue fa fa-bitcon icon-rotate" onclick="secondnight()">
+	</div>
+	<div class="three wrapper icon-circle">
+		<img src="night3.png" class="blue fa fa-bitcon icon-rotate" onclick="thirdnight()">
+	</div>
+
+	<div class="right">
+		<img src="r2right.png" class="rightimg">
+	</div>
+
+	<div class="middle">
+		<img src="r2middle.png" class="middleimg">
+	</div>
+	<div class="p">
+		<p class="paragraph">
+		<div class="paragraph">［别名］碎花羽蝶兰（中国植物图鉴）；手掌参（东北）；佛手参；欧白及</div>
+		<div class="paragraph">［植物］兰科（Orchidaoeae）植物手参Gymnadenia Conopsea R. Brown。多年生草本，高30-50余厘米，地下有掌状黄白色的肉质根及多数须根。叶互生，广线形或长披针形，长9-20厘米，宽1-2.5厘米，在下部的先端钝尖，在上部的先端渐尖，最上部的叶似鳞片状，线状披针形，较小，先端锐尖呈长尾状尖，叶脉平行，花被的唇瓣广倒卵形，先端三裂，裂片钝头；距比子房长，线形，长15-18毫米，弯曲。花期7-8月。多生于山地林缘土壤较肥沃的场所。</div> 
+		<div class="paragraph">［分布］华北区，长白山区，大兴安岭区.</div>
+		<div class="paragraph">［采制］在秋天花后采收，采下的块根用水洗净，除去须根，放在热水中烫数分钟，然后干燥之。</div>
+		<div class="paragraph">［生药］手参Radix Gymnadeniae 干燥块根，呈掌状，稍扁，长2.5-3.5厘米，径2-2.5厘米，淡黄色，质重而坚硬，表面稍皱缩。无臭。</div>
+		<div class="paragraph">［成分］含粘液质。</div>
+		<div class="paragraph">［效用］做成浓稠的黏液状胶浆作为保护药用，或制成欧白及煎剂Decoetum Salep。</div>
+	</p>
+	</div>
+</body>
+</html>

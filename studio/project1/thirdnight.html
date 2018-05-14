@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+		.left{
+			position: absolute;
+			width: 50vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 5vw;
+			top: 5vh;
+		}
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 50vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+
+		.number{
+			height: 55vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 15vw;
+			top: 25vh;
+		}
+		.numberimg{
+			height: 55vh;
+			width: auto;
+		}
+
+		.home{
+			height: 10vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 13vw;
+			top: 55vh;
+		}
+		.homeimg{
+			height: 10vh;
+			width: auto;
+			cursor: pointer;
+		}
+		.rd{
+			height: 8vh;
+			width: auto;
+			display: block;
+			position: absolute;
+			left: 33vw;
+			top: 19vh;
+		}
+		.stimg{
+			height: 8vh;
+			width: auto;
+		}
+		.right{
+			position: absolute;
+			width: 55vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			right: 5vw;
+			top: 5vh;
+			z-index: -1;
+		}
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 55vw;
+			height: auto;
+			margin-top: 1vh;
+		}
+		.p{
+			width: 35vw;
+			height: auto;
+			display: block;
+			position: absolute;
+			left: 37vw;
+			top: 25vh;
+		}
+		.paragraph{
+			font-size: 1vw;
+			color: #b5cacf;
+			line-height: 1.5vw;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+	</style>
+	<script>
+		function homepage(){
+			location.replace("homepage.html")
+		}
+	</script>
+</head>
+<body>
+	<div class="left">
+		<img src="nightcircle.png" class="leftimg">
+	</div>
+	<div class="number">
+		<img src="3.png" class="numberimg">
+	</div>
+	<div class="home wrapper icon-circle">
+		<img src="bluehome.png" class="homeimg fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="rd">
+		<img src="rd.png" class="stimg">
+	</div>
+	<div class="right">
+		<img src="a.png" class="rightimg">
+	</div>
+	<div class="p">
+		<p class="paragraph"><div class="paragraph">“This evening I saw a German play acted. It was in a little town. A stable had been turned into a theatre; that is to say, the stable had been left standing, and had been turned into private boxes, and all the timber work had been covered with colored paper. A little iron chandelier hung beneath the ceiling, and that it might be made to disappear into the ceiling, ad it does in great inverted tub had been placed just above it.</div>
+		<div class="paragraph">“’Ting-ting!’ and the little iron chandelier suddenly rose at least half yard and disappeared in the tub; and that was the sign that the play was going to begin. A young nobleman and his lady, who happened to be passing through the little town, were present at the performance, and consequently the house was crowded. But under the chandelier was a vacant space like a little crater: not a single soul sat there, for the tallow was dropping, drip, drip! I saw everything, for it was so warm in there that every loophole had been opened. The male and female servants stood outside, peeping through the chinks, although a real policeman was inside, threatening them with a stick. Close by the orchestra could be seen the noble young couple in two old arm-chairs, which were usually occupied by his worship the mayor and his lady; but these latter were to-day obliged to content themselves with wooden forms, just as if they had been ordinary citizens; and the lady observed quietly to herself, ‘On sees, now ,that there is rank above rank; and this incident gave an air of extra festivity to the whole proceedings. The chandelier gave little leaps, the crowd got their knuckles rapped, and I, the Moon, was present at the performance from beginning to end.”</div>
+	</p>
+
+</body>
+</html>

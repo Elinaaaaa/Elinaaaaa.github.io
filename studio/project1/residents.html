@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		html,body{
+			background-color: #7B798E;
+			padding:0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		/*#body{
+			opacity: 0;
+			transition: opacity 2s;
+			-webkit-transition: opacity 2s;
+			-moz-transition: opacity 2s;
+		}
+*/
+		.leftimg{
+			position: relative;
+			display: block;
+			width: 25vw;
+			height: auto;
+			left: -0.5vw;
+			vertical-align: middle;
+			margin-top: 10vh;
+		}
+		.left{
+			position: absolute;
+			width: 30vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			left: 0vw;
+		}
+
+		.rightimg{
+			position: relative;
+			display: block;
+			width: 40vw;
+			height: auto;
+			margin-top: 2vh;
+		}
+		.right{
+			position: relative;
+			width: 40vw;
+			height: 100%;
+			line-height: 100%;
+			overflow: hidden;
+			float: right;
+			padding: 0;
+			right: -1vw;
+		}
+
+		.yellow{
+			height: 15vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.h{
+			display: block;
+			position: absolute;
+			left: 8.5vw;
+			top: 6vw;
+		}
+		.m{
+			display: block;
+			position: absolute;
+			left: 18vw;
+			top: 18vw;
+		}
+
+		.blue{
+			height: 8vh;
+			width: auto;
+			margin-bottom: 0 auto;
+			cursor: pointer;
+		}
+		.one{
+			display: block;
+			position: absolute;
+			left: 15.1vw;
+			top: 28vw;
+		}
+		.two{
+			display: block;
+			position: absolute;
+			left: 12.3vw;
+			top: 38vw;
+		}
+		.three{
+			display: block;
+			position: absolute;
+			left: 4.8vw;
+			top: 45vw;
+		}
+
+		.middleimg{
+			position: relative;
+			width: 60vw;
+			height: auto;
+			margin: 0 auto;
+			margin-top: 5.5vh;
+		}
+		.middle{
+			display: block;
+			position: absolute;
+			left: 35vw;
+		}
+
+		.rimg{
+			position: relative;
+			width: 17.5vw;
+			height: auto;
+			margin: 0 auto;
+			cursor: pointer;
+		}
+
+		.wrapper .fa{
+			-webkit-transition: all 0.7s ease-in-out;
+			-moz-transition: all 0.7s ease-in-out;
+			-ms-transition: all 0.7s ease-in-out;
+			-o-transition: all 0.7s ease-in-out;
+			transition: all 0.7s ease-in-out;
+		}
+
+		.icon-circle .fa {
+  			border-radius: 50%;
+		}
+
+		.icon-rotate:hover { 
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+			transform: scale(1.1) rotate(360deg);
+		}
+
+		.r1{
+			display: block;
+			position: absolute;
+			right: 20vw; 
+			top: 1.5vw;
+		}
+
+
+		.r2{
+			display: block;
+			position: absolute;
+			right: 32.5vw; 
+			top: 24.5vw;
+		}
+		.r3{
+			display: block;
+			position: absolute;
+			right: 20vw; 
+			top: 46.5vw;
+		}
+		
+
+
+	</style>
+
+</head>
+<body id="body">
+	<div class="left">
+		<img src="rleft.png" class="leftimg">
+	</div>
+
+	<div class="h wrapper icon-circle">
+		<img src="homepage.png" class="yellow fa fa-bitcon icon-rotate" onclick="homepage()">
+	</div>
+	<div class="m wrapper icon-circle">
+		<img src="moonsaw.png" class="yellow fa fa-bitcon icon-rotate" onclick="moon()">
+	</div>
+
+	<div class="one wrapper icon-circle">
+		<img src="night1.png" class="blue fa fa-bitcon icon-rotate" onclick="firstnight()">
+	</div>
+	<div class="two wrapper icon-circle">
+		<img src="night2.png" class="blue fa fa-bitcon icon-rotate" onclick="secondnight()">
+	</div>
+	<div class="three wrapper icon-circle">
+		<img src="night3.png" class="blue fa fa-bitcon icon-rotate" onclick="thirdnight()">
+	</div>
+
+	<div class="right">
+		<img src="rright.png" class="rightimg">
+	</div>
+
+	<div class="middle">
+		<img src="rmiddle.png" class="middleimg">
+	</div>
+
+	<div class="r1 wrapper icon-circle">
+		<img src="r1.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident1()">
+	</div>
+
+	<div class="r2 wrapper icon-circle">
+		<img src="r2.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident2()">
+	</div>
+	<div class="r3 wrapper icon-circle">
+		<img src="r3.png" class="rimg fa fa-bitcon icon-rotate" onclick="resident3()">
+	</div>
+
+
+
+<script>
+
+	/*	document.getElementById("body").style.opacity = 1;*/
+
+		function moon(){
+			location.replace("moon.html")
+		}
+		function homepage(){
+			location.replace("homepage.html")
+		}
+		function resident1(){
+			location.replace("resident1.html")
+		}
+		function resident2(){
+
+			document.getElementById("body").style.opacity = 0;
+			setTimeout(function(){
+				location.replace("resident2.html")
+			 }, 1000);
+		}
+		function resident3(){
+			location.replace("resident3.html")
+		}
+		function firstnight(){
+			location.replace("firstnight.html")
+		}
+		function secondnight(){
+			location.replace("secondnight.html")
+		}
+		function thirdnight(){
+			location.replace("thirdnight.html")
+		}
+	</script>
+</body>
+</html>

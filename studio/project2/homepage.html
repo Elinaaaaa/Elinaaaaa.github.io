@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<style>
+html,body{
+	background-color: #FEDB00;
+}
+
+.row{
+	position: absolute;
+	left: 50%;
+	top: 70vh;
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.div2{
+	display: inline-block;
+    vertical-align: top;
+}
+.circle {
+	font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    line-height: 90px;
+    cursor: pointer;
+    margin: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: black;
+}
+.circle:hover {
+    background: #B2C9EF;
+    color: white;
+}
+.circle.yes {
+    box-shadow: 0 0 0 1.5px black;
+    position: relative;
+    display: inline-block;
+}
+.circle.no{
+	box-shadow: 0 0 0 1.5px black;
+	position: relative;
+    display: inline-block;
+}
+
+.div1{
+	text-align: center;
+}
+.question{
+	font-family: 'Poiret One', cursive;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.div0{
+	position: relative;
+	margin: 0 auto;
+	width: 30vw;
+	height: auto;
+	top: 10vh;
+}
+.bike{
+	-webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+
+</style>
+</head>
+<body>
+<div class="div0">
+	<img class="bike" src="Untitled-1.svg">
+</div>
+
+<div class="row">
+	<div class="div1">
+		<p class="question">Wanna try Bike Sharing?</p>
+	</div>
+	<div class="div2">
+		<a class="circle yes" href="yes.html">YES</a>
+	</div>
+	<div class="div2">
+		<a class="circle no" href="no.html">NO</a>
+	</div>
+</div>
+
+</body>
+</html>
